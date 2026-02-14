@@ -1,7 +1,14 @@
 {
-  "recommendationType": "{{recommendationTitle}}",
+  "recommendationType": "Downscale disks",
   "affectedResources": [
-    {{affectedResourcesJson}}
+    {
+  "name": "contoso-demo-web-vm_osdisk_1_1acfd0824c5e494591959430df779bdf",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/eca2646b-f770-43f0-8c71-c80e35801b1b/resourcegroups/contoso-demo-rg/providers/microsoft.compute/disks/contoso-demo-web-vm_osdisk_1_1acfd0824c5e494591959430df779bdf",
+  "recommendedAction": "Change tier from \u0027E10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027",
+  "region": "",
+  "estimatedSavings": ""
+}
   ],
   "notes": "This file contains the list of Azure resources affected by this recommendation. Use this data when generating remediation scripts."
 }
