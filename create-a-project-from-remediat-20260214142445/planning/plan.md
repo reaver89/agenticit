@@ -1,4 +1,4 @@
-# Remediation Plan - {{customerName}}
+# Remediation Plan - A. Datum Corporation
 
 ## Phase 1: Project Setup (Completed)
 
