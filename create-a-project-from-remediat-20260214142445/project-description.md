@@ -1,8 +1,8 @@
-# Project Description — Remediation for {{customerName}}
+# Project Description — Remediation for A. Datum Corporation
 
 ## What Is This Project?
 
-This is an **Azure Remediation** project for {{customerName}} addressing: **{{taskTitle}}**.
+This is an **Azure Remediation** project for A. Datum Corporation addressing: **Downscale disks**.
 The project generates production-ready remediation scripts, validates fixes, and produces a runbook with step-by-step instructions.
 
 ## Project Phases
