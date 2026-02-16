@@ -1,4 +1,3 @@
-```markdown
 # Document Update: Progress
 
 ## Document Specification
