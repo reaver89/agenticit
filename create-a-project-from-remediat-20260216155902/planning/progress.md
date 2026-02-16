@@ -9,19 +9,11 @@
 - It handles installation of necessary Az modules (`Az.Accounts`, `Az.Compute`).
 - The script parses the target disk tier from a "RecommendedAction" field in the inventory.
 - It logs successful and failed operations.
+- An inventory CSV file (`/scripts/inventory.csv`) has been generated.
 
 ## In Progress
 - Executing the generated remediation script to downscale disks.
-- Generating the inventory CSV.
+- Reviewing the output of the remediation script to confirm successful disk tier changes.
 
 ## Pending
-- Reviewing the output of the remediation script to confirm successful disk tier changes.
 - Potentially running the script with the `WhatIf` parameter first if not already done.
-
-## Last User Message
-Generate Remediation Script
-
-## Main Loop Response
-- **Action**: finish
-- **Summary**: Generated the remediation script. The next step is to generate the inventory CSV.
-- **Tool Result**: 
