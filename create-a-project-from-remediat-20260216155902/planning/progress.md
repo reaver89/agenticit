@@ -12,7 +12,16 @@
 
 ## In Progress
 - Executing the generated remediation script to downscale disks.
+- Generating the inventory CSV.
 
 ## Pending
 - Reviewing the output of the remediation script to confirm successful disk tier changes.
 - Potentially running the script with the `WhatIf` parameter first if not already done.
+
+## Last User Message
+Generate Remediation Script
+
+## Main Loop Response
+- **Action**: finish
+- **Summary**: Generated the remediation script. The next step is to generate the inventory CSV.
+- **Tool Result**: 
