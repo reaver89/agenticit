@@ -1,0 +1,7 @@
+{
+  "recommendationType": "{{recommendationTitle}}",
+  "affectedResources": [
+    {{affectedResourcesJson}}
+  ],
+  "notes": "This file contains the list of Azure resources affected by this recommendation. Use this data when generating remediation scripts."
+}
