@@ -1,9 +1,9 @@
 # Customer Information
 
 ## Overview
-- **Customer Name**: {{customerName}}
-- **Task ID**: {{taskId}}
-- **Organization ID**: {{organizationId}}
+- **Customer Name**: A. Datum Corporation
+- **Task ID**: 1305
+- **Organization ID**: 9535197a-64b8-4ba6-b441-c31dadbe4676
 
 ## Task
 **{{taskTitle}}**
