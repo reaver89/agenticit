@@ -1,4 +1,3 @@
-```markdown
 # Document Update: Progress
 
 ## Document Specification
@@ -31,8 +30,9 @@ Project created from template: cost-optimization
 - Scheduled kick-off meeting with Cascade Logistics stakeholders.
 
 ## In Progress
-- Scheduling the kickoff meeting with Cascade Logistics stakeholders.
+- Reviewing the Statement of Work.
+- Adding the Cascade Logistics logo to the presentation materials.
+- Opening the customer info document for context.
 
 ## Key Findings
 - Meeting scheduling link generated for "Cascade Logistics - Cost Optimization Kickoff Meeting [vbox-task-1365]" with 1 attendee(s): vmakhnevich@vboxcloud.com.
-```
