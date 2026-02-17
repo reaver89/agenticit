@@ -2,6 +2,7 @@
 - Scheduled kick-off meeting with Cascade Logistics stakeholders.
 - Provided key discussion points for the kickoff meeting based on the customer information document.
 - Applied Cascade Logistics logo to presentation materials.
+- Uploaded customer logo.
 
 ## In Progress
 - Reviewing the Statement of Work.
