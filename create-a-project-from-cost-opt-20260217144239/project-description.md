@@ -1,8 +1,8 @@
-# Project Description — Cost Optimization for {{customerName}}
+# Project Description — Cost Optimization for Adventure Works
 
 ## What Is This Project?
 
-This is a **Cost Optimization** engagement for {{customerName}}. The project analyzes current Azure spending patterns, identifies savings opportunities, and produces actionable recommendations to reduce cloud costs.
+This is a **Cost Optimization** engagement for Adventure Works. The project analyzes current Azure spending patterns, identifies savings opportunities, and produces actionable recommendations to reduce cloud costs.
 
 ## Project Phases
 
@@ -20,7 +20,7 @@ This is a **Cost Optimization** engagement for {{customerName}}. The project ana
 | **Kick-off Deck** (`artifacts/kickoff-deck.pptx`) | Presentation for the initial stakeholder meeting |
 | **Cost Analysis Report** | Detailed breakdown of current spending and trends |
 | **Recommendations List** | Prioritized savings opportunities with estimated impact |
-| **Executive Summary** | Final presentation for {{customerName}} leadership |
+| **Executive Summary** | Final presentation for Adventure Works leadership |
 
 ## How to Work With the Agent
 
