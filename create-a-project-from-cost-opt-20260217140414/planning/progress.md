@@ -1,4 +1,3 @@
-```markdown
 # Document Update: Progress
 
 ## Document Specification
@@ -32,4 +31,3 @@ Project created from template: cost-optimization
 
 ## Key Findings
 - Meeting scheduling link generated for "A. Datum Corporation - Cost Optimization Kickoff [vbox-task-1357]" with 1 attendee(s): {{stakeholderEmails}}.
-```
