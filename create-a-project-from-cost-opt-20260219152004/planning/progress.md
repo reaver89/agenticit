@@ -1,0 +1,1 @@
+Project created from template: cost-optimization
