@@ -1,12 +1,17 @@
-# Remediation Runbook - {{customerName}}
+# Remediation Runbook - A. Datum Corporation
 
-## Task: {{taskTitle}}
+## Task: Downscale disks
 
 ## Recommendation
-{{recommendationTitle}}
+Downscale disks
 
 ## Affected Resources
-{{affectedResources}}
+- **contoso-demo-normal-vm_osdisk_1_7734ec91883d4597b1b2310d121c3237** (microsoft.compute/disks)
+  - Action: Change tier from 'E10 LRS Disk' to 'S10 LRS Disk'
+  - ID: `/subscriptions/eca2646b-f770-43f0-8c71-c80e35801b1b/resourcegroups/contoso-demo-rg/providers/microsoft.compute/disks/contoso-demo-normal-vm_osdisk_1_7734ec91883d4597b1b2310d121c3237`
+- **contoso-demo-web-vm_osdisk_1_1acfd0824c5e494591959430df779bdf** (microsoft.compute/disks)
+  - Action: Change tier from 'E10 LRS Disk' to 'S10 LRS Disk'
+  - ID: `/subscriptions/eca2646b-f770-43f0-8c71-c80e35801b1b/resourcegroups/contoso-demo-rg/providers/microsoft.compute/disks/contoso-demo-web-vm_osdisk_1_1acfd0824c5e494591959430df779bdf`
 
 ## Pre-Execution Checklist
 
@@ -18,7 +23,7 @@
 
 ## Execution Steps
 
-{{remediationSteps}}
+*No remediation steps provided*
 
 ## Generated Scripts
 
