@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pin-da34d190",
+    "text": "Key Takeaways\nVMs are the #1 lever — rightsizing and deallocation could save $291+/month on identified VMs alone, with more potential if we do a full sweep.\nSQL and App Service are unaudited — these represent $1,890/month in combined spend with no optimization work done yet.\nOur already-identified savings ($790.65/month) represent ~",
+    "source_message_id": "msg-4",
+    "label": "Test",
+    "created_at": "2026-02-19T20:21:02.115812+00:00"
+  },
+  {
+    "id": "pin-789714f4",
+    "text": "Here's where your **$8,420/month** is going across the top cost drivers:\n\n## 💸 Top 5 Cost Drivers — Last 30 Days\n\n**1. Virtual Machines — $4,820/month (57% of total)**\nBy far the largest expense. We've already identified significant savings here — vm-dev-analytics and vm-staging-api are both severely underutilized (1.2% and 3.8% CPU respectively) and are prime rightsizing candidates.\n\n**2. Azure SQL Database — $1,240/month (15% of total)**\nSecond largest spend. This hasn't been audited yet — worth investigating whether DTU/vCore tiers are right-sized and if any databases are idle or over-provisioned.\n\n**3. Storage — $890/month (11% of total)**\nIncludes the 3 orphaned disks ($96/month) we've already flagged. The remaining ~$794/month warrants a deeper look for redundant blobs, over-tiered storage, or lifecycle policy gaps.\n\n**4. App Service — $650/month (8% of total)**\nNot yet audited. Could be hosting dev/test environments on production-tier plans, or running idle slots.\n\n**5. Networking — $420/month (5% of total)**\nThis includes the 3 unattached public IPs and 2 orphaned NICs we've already flagged ($111.65/month in recoverable waste). The remaining spend likely covers VPN gateways, load balancers, and egress.\n\n---\n\n## 📌 Key Takeaways\n\n- **VMs are the #1 lever** — rightsizing and deallocation could save $291+/month on identified VMs alone, with more potential if we do a full sweep.\n- **SQL and App Service are unaudited** — these represent $1,890/month in combined spend with no optimization work done yet.\n- Our **already-identified savings ($790.65/month)** represent ~9.4% of total spend — we're well on track toward the **25% reduction goal**, but auditing SQL and App Service will be critical to closing the gap.\n\nWould you like me to dig deeper into any of these categories — for example, run an idle VM scan or check for policy violations on SQL/Storage?",
+    "source_message_id": "msg-4",
+    "label": "Test12",
+    "created_at": "2026-02-19T20:21:10.427777+00:00"
+  },
+  {
+    "id": "pin-e495c5fb",
+    "text": "✅ Delete all three in one go?",
+    "source_message_id": "msg-4",
+    "label": "",
+    "created_at": "2026-02-19T21:06:43.763379+00:00"
+  }
+]
