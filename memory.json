@@ -1,0 +1,16 @@
+{
+  "summary": "Cloud governance project for subscription sub-demo-001 identified $790.65/month ($9,487.80 annually) in cost optimization opportunities from $8,420/month current spend. Top cost drivers: VMs $4,820/month (57%), Azure SQL Database $1,240/month (15%), Storage $890/month, App Service $650/month, Networking $620/month. Immediate deletion-ready resources: three orphaned disks ($96/month)—disk-old-01, disk-backup-02, disk-test-03; orphaned network infrastructure (2 NICs, 3 public IPs) adds $111.65/month savings. VM rightsizing identified for vm-dev-analytics and vm-staging-api with $291+/month combined potential. Critical security findings: stgproddata01 storage (2,300 GB) has public Blob access on production data; nsg-prod-web permits RDP from 0.0.0.0/0 affecting 4 production VMs; nsg-dev-ssh permits SSH from 0.0.0.0/0 affecting 2 dev VMs—both are active attack surfaces requiring immediate remediation; 5 non-HTTPS storage accounts, 4 missing NSGs, 3 location violations. Governance gaps: 47 resources lack required tags (CostCenter, Owner, Environment). Completed deliverables: VM Rightsizing Report with risk assessment, Cost Monitoring Alerts scripts deployed, List Azure VMs Script created. In progress: SQL Database and Storage audits. Target savings: 25% ($2,105/month); current identified: 9.4%. Customer call scheduled today (February 20, 2026) at 5:10 PM with John Doe regarding SOW and contract signature. Top priority: address NSG vulnerabilities before other improvements.",
+  "key_facts": [
+    "Sub-demo-001: $8,420/month spend; $790.65/month optimization identified (9.4%)",
+    "nsg-prod-web RDP (3389) open to 0.0.0.0/0 affecting 4 production VMs—critical",
+    "nsg-dev-ssh SSH (22) open to 0.0.0.0/0 affecting 2 dev VMs—critical",
+    "stgproddata01 storage (2,300 GB) has public Blob access—critical security risk",
+    "Three orphaned disks ($96/month) + orphaned NICs/IPs ($111.65/month) ready for deletion",
+    "vm-dev-analytics and vm-staging-api oversized; $291+/month rightsizing potential",
+    "47 resources missing required tags; 12 policy violations identified",
+    "Target: 25% savings ($2,105/month); currently tracking 9.4% identified",
+    "Customer call today 5:10 PM with John Doe for SOW and contract"
+  ],
+  "updated_at": "2026-02-20T18:59:30.512911+00:00",
+  "turn_count": 18
+}
